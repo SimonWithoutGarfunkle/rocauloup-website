@@ -59,3 +59,11 @@ section img {
 .ecole {
   background-color: rgb(215,210,197);
 }
+
+@media all and (max-width:600px) {
+  .introduction, .elevage, .ecole {
+    width: 90%;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+}
