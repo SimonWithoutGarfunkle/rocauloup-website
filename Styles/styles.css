@@ -56,6 +56,12 @@ main {
   padding-top: 30px;
 }
 
+@media all and (max-width:600px) {
+  .nom-metier {
+    display: none;
+  }
+}
+
 /* ************************************************************************** 
  *
  * Header
