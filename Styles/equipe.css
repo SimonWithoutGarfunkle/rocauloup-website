@@ -1,0 +1,44 @@
+.eric, .chloe {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .marieanne {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(215,210,197);
+    padding-left: 30px;
+  }
+  
+  .equipe-impaire p {
+    display: block;
+    margin: 30px 2px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(165, 151, 136);
+  }
+  
+  .equipe-paire p {
+    display: block;
+    margin: 30px 2px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #96673e;
+  }
+  
+
+  .equipe h2 {
+    display: block;
+  }
+
+  .equipe img {
+    max-width: 300px;
+    margin: 30px;
+    box-shadow: 1px 1px 1px gray;
+  }
