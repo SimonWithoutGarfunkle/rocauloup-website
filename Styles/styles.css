@@ -52,7 +52,7 @@ li {
 }
 
 main {
-  margin-top: 146px;
+  margin-top: 146px; /* on réserve l'espace pour le header qui est fixé en haut de l'écran */
   padding-top: 30px;
 }
 
