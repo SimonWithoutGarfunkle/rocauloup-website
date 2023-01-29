@@ -1,0 +1,65 @@
+.contact-info h2 {
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    justify-content:space-between;
+}
+
+iframe {
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    color: #96673e;
+}
+
+.cta {
+    display: inline-block;
+    background-color: rgb(120,95,71);
+    color: rgb(165, 151, 136);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 40px;
+    border: 0px;
+    box-shadow: 1px 1px 3px black;
+  }
+
+  .cta:hover {
+    background: rgb(161,102,48);
+    text-decoration: none;
+  }
+
+  label {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+
+  input, textarea {
+    border-radius: 7px;
+  }
+
+  input {
+    padding: 7px;
+  }
+
+  textarea {
+    padding: 25px;
+  }
