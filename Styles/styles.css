@@ -1,0 +1,163 @@
+
+/* ************************************************************************** 
+ *
+ * Regles génériques
+ *
+ ****************************************************************************/
+ * {
+    margin:0px;
+}
+
+ body {
+    font-family: 'Comic Neue', cursive;
+    font-size: 1em;
+    background-color: #382a1f
+  }
+
+.container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #96673e;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #96673e;
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #96673e;
+  padding-bottom: 20px;
+  font-size: 1.7em;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2em;
+  color: rgb(165, 151, 136);
+}
+
+li {
+  font-size: 1.2em;
+  color: rgb(165, 151, 136);
+}
+
+/* ************************************************************************** 
+ *
+ * Header
+ *
+ ****************************************************************************/
+header {
+    background-color: rgb(165, 151, 136);
+    padding: 20px 30px;
+    box-shadow: 0px 2px 8px gray;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu a {
+    margin-right: 5px;
+    padding: 20px;
+    text-decoration: none;
+    color: #96673e;
+    font-size: 1.3em;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+
+  .bloc-entreprise {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .header-titre {
+    font-weight: bold;
+    font-size:xx-large;
+    color: #96673e;
+  }
+
+  .header-sous-titre {
+    color: #96673e;
+  }
+
+  .menu a:hover {
+    color: #382a1f;
+    box-shadow: 1px 1px 5px #382a1f;
+  }
+
+/* ************************************************************************** 
+ *
+ * Footer
+ *
+ ****************************************************************************/
+ 
+ footer {
+  background-color: rgb(165,151,136);
+}
+
+.artiste {
+  background-color: rgb(185, 184, 184);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.artiste a {
+  color: black;
+  text-decoration: none;
+}
+
+.social img {
+  height: 40px;
+  margin: 5px 10px;
+}
+
+.social h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+  padding-top: 30px;
+}
+
+.footer-logo-roc img {
+  height: 90px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.footer-logo-roc a {
+  text-decoration: none;
+  color: #96673e;
+}
+
+footer h2 {
+color: #96673e;
+}

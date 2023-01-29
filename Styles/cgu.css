@@ -1,0 +1,21 @@
+h1 {
+    padding-top: 146px;
+}
+
+#mentions_legales {
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    font-style: italic;
+    color: #96673e;
+  }
+
+  h3 {
+    color: rgb(165, 151, 136);
+    font-weight: bold;
+    padding: 20px 0px 5px 0px;
+  }

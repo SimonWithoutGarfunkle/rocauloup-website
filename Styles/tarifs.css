@@ -1,0 +1,24 @@
+table {
+    color: rgb(165, 151, 136);
+    margin: 40px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+td {
+    border: 1px solid rgb(165, 151, 136);
+    padding: 30px 70px;
+}
+
+th {
+    border: 1px solid rgb(165, 151, 136);
+    padding: 30px;    
+}
+
+.tarifs h1 {
+    text-align: center;
+    padding-top: 170px;
+}
