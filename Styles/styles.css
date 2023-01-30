@@ -64,7 +64,7 @@ main {
 
 @media all and (max-width:600px) {
   img {
-    max-width: 100%;
+    max-width: 100%; !important
   }
 }
 
